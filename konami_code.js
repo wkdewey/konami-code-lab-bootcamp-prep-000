@@ -20,6 +20,7 @@ function onKeyDownHandler(e) {
     console.log(`index is ${index}`);
     console.log(index === codes.length)
     if (index === codes.length) {
+      console.log("Alert!")
       alert("Hurray!");
       index = 0;
     }
