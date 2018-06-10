@@ -21,8 +21,7 @@ function onKeyDownHandler(e) {
     console.log(index === codes.length)
     if (index === codes.length) {
       console.log("Alert!")
-      window.alert("Hurray!");
-      index = 0;
+      alert("Hurray!");
     }
   } else {
     index = 0;
