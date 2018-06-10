@@ -29,7 +29,7 @@ function onKeyDownHandler(e) {
 }
 
 function init() {
-  document.addEventListener('keydown', onKeyDownHandler);
+  document.body.addEventListener('keydown', onKeyDownHandler);
   
 }
 init();
