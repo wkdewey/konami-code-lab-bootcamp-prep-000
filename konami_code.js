@@ -26,7 +26,7 @@ function onKeyDownHandler(e) {
 
 function init() {
   let index = 0;
-  e = KeyboardEvent();
+  document.add
   
 }
 init();
